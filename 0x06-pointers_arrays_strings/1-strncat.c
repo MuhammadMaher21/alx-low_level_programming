@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - Concatenates two strings
+ * _strncat - Concatenates two strings
  * @dest: The destination value
  * @src: The source value
  * @n: The limit of the concatenation
  *
  * Return: A pointer to the resulting string dest
  */
-char *_strcar(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int dlen = 0, j = 0;
 	while (dest[dlen])
